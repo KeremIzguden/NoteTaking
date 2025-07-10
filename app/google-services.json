@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142334159594",
+    "project_id": "notetake-4ab06",
+    "storage_bucket": "notetake-4ab06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142334159594:android:fcaf7499ecd2152774c593",
+        "android_client_info": {
+          "package_name": "com.example.notetake"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2YvnyrXh41YLG-HpzrFbsalgvzhsbmdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

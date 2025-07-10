@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Başlık" />
+
+        <EditText
+            android:id="@+id/editTextContent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="İçerik"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/imageViewNote"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/buttonChooseImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fotoğraf Seç" />
+
+        <Button
+            android:id="@+id/buttonSaveNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Notu Kaydet" />
+    </LinearLayout>
+</ScrollView>
